@@ -29,7 +29,7 @@ import os
 import io
 from typing import List, Optional
 
-from .modeling import RiskModel
+from modeling import RiskModel
 
 # Application instance
 app = FastAPI(title="Risk Scoring API", version="0.1.0")
